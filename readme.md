@@ -12,7 +12,8 @@ This will install all required packages
 
 ## Running the server
 To run the server locally, under working directory , run
-''' 
+
+'''
 export FLASK_APP=app.py
 flask run --reload
 '''
@@ -45,6 +46,7 @@ GET /desserts
 - display all desserts in Dessert table
 - return example
 - return no authentication
+
 '''
 {"desserts":[{"dessert":"brownie","id":1,"price":"5.0"},{"dessert":"cupcake","id":2,"price":"3.0"}],"success":true}
 '''
